@@ -1,0 +1,52 @@
+MIT License
+
+Copyright (c) 2026 meowfox
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Disclaimer / Haftungsausschluss
+
+This software displays stock and cryptocurrency price data retrieved from a
+free, unofficial third-party API (Yahoo Finance). Prices may be delayed,
+inaccurate, incomplete, or temporarily unavailable. The author makes no
+representation or warranty as to the accuracy, completeness, or timeliness of
+any data shown by this application.
+
+This software is provided for informational purposes only and does not
+constitute financial, investment, trading, or legal advice. Nothing in this
+application should be relied upon as the basis for a financial decision. Use
+of this software and any data it displays is entirely at your own risk. The
+author assumes no liability for any losses, damages, or other consequences
+resulting from the use of, or reliance on, this software or its data.
+
+Diese Software zeigt Kurse für Aktien und Kryptowährungen an, die über eine
+kostenlose, inoffizielle Drittanbieter-Schnittstelle (Yahoo Finance) abgerufen
+werden. Kurse können verzögert, ungenau, unvollständig oder zeitweise nicht
+verfügbar sein. Der Autor übernimmt keine Gewähr für die Richtigkeit,
+Vollständigkeit oder Aktualität der angezeigten Daten.
+
+Diese Software dient ausschließlich zu Informationszwecken und stellt keine
+Finanz-, Anlage-, Handels- oder Rechtsberatung dar. Nichts in dieser
+Anwendung darf als Grundlage für eine finanzielle Entscheidung herangezogen
+werden. Die Nutzung dieser Software und der angezeigten Daten erfolgt
+ausschließlich auf eigenes Risiko. Der Autor haftet nicht für Verluste,
+Schäden oder sonstige Folgen, die sich aus der Nutzung oder dem Vertrauen auf
+diese Software oder ihre Daten ergeben.
