@@ -1,35 +1,35 @@
 # Ticker Kurs
 
-Eine schlanke macOS-Menüleisten-App, die den aktuellen USD-Kurs eines beliebigen
-US-Aktien-Tickers (z. B. `AAPL`, `MSFT`) oder einer Kryptowährung (z. B. `BTC`,
-`ETH`, `SOL`, `XRP`) anzeigt.
+A lightweight macOS menu bar app that shows the current USD price of any US
+stock ticker (e.g. `AAPL`, `MSFT`) or cryptocurrency (e.g. `BTC`, `ETH`,
+`SOL`, `XRP`).
 
 ## Features
 
-- Beliebiges Symbol direkt im Menü eingeben – kein Neustart nötig
-- Erkennt bekannte Krypto-Kürzel automatisch und fragt sie als `SYMBOL-USD` ab
-- Fällt bei unbekannten Kürzeln automatisch auf die jeweils andere Variante zurück
-- Anzeige von Name, Kurs (USD) und 24h-Änderung
-- Einstellbares Aktualisierungsintervall (30 Sek. / 1 Min. / 5 Min. / 15 Min.)
-- Läuft als reine Menüleisten-App (kein Dock-Icon)
+- Enter any symbol directly from the menu – no restart required
+- Automatically recognizes known crypto tickers and queries them as
+  `SYMBOL-USD`
+- Falls back to the other variant automatically for unknown symbols
+- Shows name, price (USD), and 24h change
+- Configurable refresh interval (30 sec / 1 min / 5 min / 15 min)
+- Runs as a pure menu bar app (no Dock icon)
 
-## Datenquelle
+## Data source
 
-Kursdaten werden über die kostenlose, inoffizielle Chart-API von Yahoo Finance
-(`query1.finance.yahoo.com`) abgerufen. Es wird kein API-Key benötigt. Da es
-sich um eine inoffizielle Schnittstelle handelt, kann sie sich ändern oder
-zeitweise nicht verfügbar sein.
+Price data is fetched from the free, unofficial Yahoo Finance chart API
+(`query1.finance.yahoo.com`). No API key is required. Since this is an
+unofficial interface, it may change or become temporarily unavailable.
 
 ## Build
 
-Voraussetzung: Xcode-Kommandozeilentools (Swift 5.9+, macOS 13+).
+Requirements: Xcode command line tools (Swift 5.9+, macOS 13+).
 
 ```bash
 swift build -c release
 ```
 
-Das fertige Binary liegt danach unter `.build/release/TickerMenuBar`. Ein
-fertiges `.app`-Bundle lässt sich damit z. B. so zusammenstellen:
+The resulting binary will be at `.build/release/TickerMenuBar`. You can
+assemble a ready-to-run `.app` bundle from it like this:
 
 ```bash
 APP="Ticker Kurs.app"
@@ -41,11 +41,11 @@ codesign --force --deep --sign - "$APP"
 open "$APP"
 ```
 
-## Lizenz
+## License
 
-MIT-Lizenz, siehe [LICENSE](LICENSE). Die Lizenzdatei enthält außerdem einen
-Haftungsausschluss zu den angezeigten Kursdaten.
+MIT License, see [LICENSE](LICENSE). The license file also includes a
+disclaimer regarding the displayed price data.
 
-## Autor
+## Author
 
 meowfox
